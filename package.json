@@ -1,0 +1,21 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^15.0.3",
+    "pg": "^8.6.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^9.1.1",
+    "typeorm": "^0.2.32",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "watch": "tsc --watch",
+    "start:dev": "nodemon --exec node dist/index.js"
+  }
+}
